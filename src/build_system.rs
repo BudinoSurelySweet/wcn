@@ -301,7 +301,8 @@ pub fn entry_point() -> Result<(), String> {
             }
         }
         "clean" => {
-            todo!("Clear the build directory")
+            // TODO: usare `fs::remove_dir_all("build")` and create the folder after the deletion
+            todo!("Clear the build directory");
         }
         "help" => {
             todo!("Help menu")
